@@ -6,3 +6,42 @@
     font-family: 'Sofia Sans', sans-serif;
     color: #EEEADE;
 }
+
+.title{
+    text-align: center;
+    font-weight: 700;
+    padding: 3px 10px;
+    margin: 10px 20px;
+}
+
+#subtitle-p{
+    font-weight: 500;
+}
+
+.subtitle{
+    text-align: center;
+    font-weight: 700;
+    color: #A51B2B;
+    font-size: 30px;
+}
+
+.text{
+    font-weight: 500;
+    padding: 3px 10px;
+    margin: 0px 20px;
+}
+
+.sobre-mim>p{
+    text-align: center;
+}
+
+#image-me{
+    border: 5px;
+}
+
+#image-fundo{
+    width: 1280px;
+    height: 719px;
+    left: 1280px;
+    top: 0px;
+}
