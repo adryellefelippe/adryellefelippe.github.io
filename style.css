@@ -61,12 +61,9 @@ body{
     text-align: center;
 }
 
-.sobre-mim-text h2{
-    font-size: 40px
-}
-
 .sobre-mim-text p{
     font-size: 27px;
+    font-weight: 400;
 }
 
 #image-me{
@@ -79,7 +76,7 @@ body{
     text-align: center;
     font-weight: 700;
     color: #A51B2B;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .text{
@@ -92,9 +89,44 @@ body{
     text-align: center;
 }
 
-#image-fundo{
-    width: 100%;
-    height: 100%;
-    left: 1280px;
-    top: 0px;
+.inferior{
+    margin: 15px;
+    padding: 10px;
+}
+
+.habilidades{
+    float: left;
+    width: 40%;
+    margin-bottom: 100px;
+    z-index: 1;
+}
+
+.habilidades ul{
+    margin-left: 100px;
+}
+
+.habilidades li{
+    font-size: 20px;
+}
+
+.impar{
+    font-style: italic;
+}
+
+.contato{
+    float: right;
+    width: 40%;
+    z-index: 2;
+    text-align: center;
+    padding: 10px;
+}
+
+.contato a{
+    padding: 5px;
+}
+
+#image-xicara{
+    float:both;
+    width: 10%;
+    z-index: 3;
 }
