@@ -117,12 +117,17 @@ body{
     float: right;
     width: 40%;
     z-index: 2;
-    text-align: center;
+    text-align: left;
     padding: 10px;
+}
+
+.contato h2{
+    text-align: left;
 }
 
 .contato a{
     padding: 5px;
+    margin-left: 10px;
 }
 
 #image-xicara{
