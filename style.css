@@ -2,13 +2,17 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* background-color: #1F2E55; */
     font-family: 'Sofia Sans', sans-serif;
     color: #EEEADE;
 }
 
 body{
     background-color: #1F2E55;
+}
+
+.sobre-mim{
+    background-image: url(images/programming2.png);
+    background-size: cover;
 }
 
 .title{
@@ -20,6 +24,24 @@ body{
 
 #subtitle-p{
     font-weight: 500;
+}
+
+.sobre-mim-text{
+    margin: 30px 0px 0px 0px;
+    padding: 5px;
+    float: right;
+    width: 75%;
+    text-align: center;
+}
+
+.sobre-mim-text p{
+    font-size: 27px;
+}
+
+#image-me{
+    width: 25%;
+    position: relative;
+    top: 5px;
 }
 
 .subtitle{
@@ -35,11 +57,6 @@ body{
     margin: 0px 20px;
 }
 
-.sobre-mim{
-    background-image: url(images/programming1.jpg);
-    background-size: cover;
-}
-
 .sobre-mim>p{
     text-align: center;
 }
@@ -49,8 +66,4 @@ body{
     height: 100%;
     left: 1280px;
     top: 0px;
-}
-
-#image-me{
-
 }
