@@ -96,13 +96,14 @@ body{
 
 .habilidades{
     float: left;
-    width: 40%;
+    width: 50%;
     margin-bottom: 100px;
+    margin-top: 10px;
     z-index: 1;
 }
 
 .habilidades ul{
-    margin-left: 100px;
+    margin-left: 170px;
 }
 
 .habilidades li{
@@ -119,6 +120,7 @@ body{
     z-index: 2;
     text-align: left;
     padding: 10px;
+    margin-top: 40px;
 }
 
 .contato h2{
@@ -130,8 +132,21 @@ body{
     margin-left: 10px;
 }
 
+.contato img:hover{
+    background-color: #A51B2B;
+    border-radius: 13px;
+}
+
+.contato p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
 #image-xicara{
     float:both;
+    position: absolute;
+    bottom: -250px;
+    left: 500px;
     width: 10%;
     z-index: 3;
 }
